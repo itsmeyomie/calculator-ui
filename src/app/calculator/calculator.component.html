@@ -1,0 +1,33 @@
+
+<h1>ENTER NUMBERS TO CALCULATE</h1>
+
+
+<div class="container">
+    <div>
+        <input type="number" [(ngModel)]="numOne">
+    </div>
+    <div>
+        <input type="number" [(ngModel)]="numTwo">
+    </div>
+</div>
+
+<div class="ans">
+
+    <div><input type="number" [(ngModel)]="sum"> <button (click)="clears()">clear</button></div>
+
+</div>
+
+<div>
+    <div class="add">
+        <button  (click)="add()">add</button>
+        <button (click)="subtract()">subtract</button>
+        <button (click)="divide()">divide</button>
+        <button (click)="multiply()">multiply</button>
+    </div>
+
+</div>
+
+
+<div class="add">
+    <!-- <button  (click)="goTosciCalc()">scientific-calc</button> -->
+</div>
